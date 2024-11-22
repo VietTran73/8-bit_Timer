@@ -1,0 +1,17 @@
+# vsim -do {run -all} -c work.tb_counter_down_from_0_clk_0 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.tb_counter_down_from_0_clk_0(fast)
+# run -all 
+# run incorrectly
+# 
+# ** Note: $finish    : ../tb/counter/tb_counter_cnt_down_from_0_clk_0.v(116)
+#    Time: 155 ps  Iteration: 2  Instance: /tb_counter_down_from_0_clk_0

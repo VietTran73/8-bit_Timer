@@ -1,0 +1,657 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/questasim64_10.2c/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Vo0LbLzZdF4[K`0L:X4LXQ3
+04 83 4 work tb_counter_cnt_up_change_start_counter_with_load_while_running_before_clk_ena_clk_1 fast 0
+=3-a497b1654f9f-67128a9b-29b-a10
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.2c;57
+Z3 dC:/questasim64_10.2c/examples
+!s110 1729268379
+T_opt1
+!s110 1729270295
+V=N7I=]J_ohY@0o7nAQ2>B1
+04 46 4 work tb_counter_set_overflow_before_underflow_clk_1 fast 0
+=5-a497b1654f9f-67129217-1df-31f4
+R1
+n@_opt1
+R2
+T_opt2
+V>5Aoonl3RYQ]WkdS?YZFA1
+04 71 4 work tb_counter_cnt_up_change_start_counter_without_load_while_running_clk_1 fast 0
+=2-a497b1654f9f-67128299-1b7-1e98
+R1
+n@_opt2
+R2
+R3
+!s110 1729266329
+vapb_controller
+IG;B5EGPgPT5R2`_l5g]nc0
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/semiconductor/practice/07_Timer_8bit/test_wave_form
+w1727794649
+8D:/semiconductor/practice/07_Timer_8bit/src/apb_controller.v
+FD:/semiconductor/practice/07_Timer_8bit/src/apb_controller.v
+L0 3
+Z6 OL;L;10.2c;57
+r1
+31
+Z7 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z8 !s110 1729270292
+!s100 VFANWKO>=HoCf6aQ=5]n61
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/src/apb_controller.v|
+!s108 1729270292.022000
+!s107 D:/semiconductor/practice/07_Timer_8bit/src/apb_controller.v|
+!i10b 1
+!s85 0
+!i111 0
+vclock_selection
+R8
+Il03`@;CLaCZVTH:1JDEXn1
+R4
+R5
+Z9 w1727705046
+8D:/semiconductor/practice/07_Timer_8bit/src/clock_selection.v
+FD:/semiconductor/practice/07_Timer_8bit/src/clock_selection.v
+L0 3
+R6
+r1
+31
+R7
+!s100 1<1Lfd4Blm:X:2hZ1fRT50
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/src/clock_selection.v|
+!s108 1729270292.084000
+!s107 D:/semiconductor/practice/07_Timer_8bit/src/clock_selection.v|
+!i10b 1
+!s85 0
+!i111 0
+vcounter
+R8
+I1NPX;<[84mXKAdbGSN^hb2
+R4
+R5
+w1728297361
+8D:/semiconductor/practice/07_Timer_8bit/src/counter.v
+FD:/semiconductor/practice/07_Timer_8bit/src/counter.v
+L0 3
+R6
+r1
+31
+R7
+!s100 56TSEFi5Bf91JclXhhKI<3
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/src/counter.v|
+!s108 1729270292.147000
+!s107 D:/semiconductor/practice/07_Timer_8bit/src/counter.v|
+!i10b 1
+!s85 0
+!i111 0
+vCPU
+R8
+IRSgPH]SSD>YX<U`O2:F4V0
+R4
+R5
+w1727782349
+8D:/semiconductor/practice/07_Timer_8bit/src/CPU.v
+FD:/semiconductor/practice/07_Timer_8bit/src/CPU.v
+L0 3
+R6
+r1
+31
+R7
+n@c@p@u
+!s100 7PjY4d86e31U1CeZ^@oEj1
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/src/CPU.v|
+!s108 1729270292.215000
+!s107 D:/semiconductor/practice/07_Timer_8bit/src/CPU.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_apb_controller_after_reset
+Z10 !s110 1728646723
+I=O;[Z_K?=^X__Vj6FOd1U0
+R4
+R5
+w1727704315
+8D:/semiconductor/practice/07_Timer_8bit/tb/apb_controller/tb_apb_controller_after_reset.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/apb_controller/tb_apb_controller_after_reset.v
+L0 3
+R6
+r1
+31
+R7
+!s100 :=RbNG9`2ST5T:g57?0@90
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/apb_controller/tb_apb_controller_after_reset.v|
+!s108 1728646723.574000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/apb_controller/tb_apb_controller_after_reset.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_after_reset
+Z11 !s110 1727961699
+I8NfXz5emTk[cNiW8:5P8Z1
+R4
+R5
+w1727946286
+8../tb/counter/tb_counter_after_reset.v
+F../tb/counter/tb_counter_after_reset.v
+L0 3
+R6
+r1
+31
+Z12 !s108 1727961699.010000
+Z13 !s107 ../tb/counter/tb_counter_while_reset.v|../tb/counter/tb_counter_cnt_up_from_nonzero_clk_0.v|../tb/counter/tb_counter_cnt_up_from_255_clk_0.v|../tb/counter/tb_counter_cnt_up_from_0_clk_0.v|../tb/counter/tb_counter_cnt_down_from_0_clk_0.v|../tb/counter/tb_counter_after_reset.v|
+Z14 !s90 -work|work|../tb/counter/tb_counter_after_reset.v|../tb/counter/tb_counter_cnt_down_from_0_clk_0.v|../tb/counter/tb_counter_cnt_up_from_0_clk_0.v|../tb/counter/tb_counter_cnt_up_from_255_clk_0.v|../tb/counter/tb_counter_cnt_up_from_nonzero_clk_0.v|../tb/counter/tb_counter_while_reset.v|
+R7
+!s100 N>oCPh<TnSem:;9Wb4UmX0
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_down_from_255_clk_0
+Z15 !s110 1728044877
+Ik>738e3COH6F<<MLd0hF01
+R4
+R5
+w1727964963
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_255_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_255_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 VPCLe@D?eiS3o<GDGDhZj0
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_255_clk_0.v|
+!s108 1728044877.251000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_255_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_down_from_nonzero_clk_0
+Z16 !s110 1728646722
+I7QRTABIdTm>2l4Zz`dncZ3
+R4
+R5
+w1728403882
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_nonzero_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_nonzero_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 ?VGff;@S0@cei41_UbYf<3
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_nonzero_clk_0.v|
+!s108 1728646722.933000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_nonzero_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_down_set_enable_before_set_load_updt_not_simultaneously_clk_0
+R10
+Ife9meFlJXEkjWK[09>i<g0
+R4
+R5
+w1728641957
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_set_enable_before_set_load_updt_not_simultaneously_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_set_enable_before_set_load_updt_not_simultaneously_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 RoONPDU@EEKP3Bl:Xa<zI0
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_set_enable_before_set_load_updt_not_simultaneously_clk_0.v|
+!s108 1728646723.435000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_set_enable_before_set_load_updt_not_simultaneously_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_down_set_enable_before_set_load_updt_simultaneously_clk_0
+R10
+IlmLKbz03@[1Q3EMGMHziB1
+R4
+R5
+w1728642598
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_set_enable_before_set_load_updt_simultaneously_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_set_enable_before_set_load_updt_simultaneously_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 kzhMWlVNcW>M^3VZZO=Rz2
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_set_enable_before_set_load_updt_simultaneously_clk_0.v|
+!s108 1728646723.504000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_set_enable_before_set_load_updt_simultaneously_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_up_change_start_counter_with_load_while_running_before_clk_ena_clk_1
+R8
+IHYYanG;hE9mMggSIf1hX03
+R4
+R5
+w1729268440
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_change_start_counter_with_load_while_running_before_next_clk_ena_clk_1.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_change_start_counter_with_load_while_running_before_next_clk_ena_clk_1.v
+L0 3
+R6
+r1
+31
+R7
+!s100 GZZZ7z:3;Q@0<W^G_NSK=2
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_change_start_counter_with_load_while_running_before_next_clk_ena_clk_1.v|
+!s108 1729270292.617000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_change_start_counter_with_load_while_running_before_next_clk_ena_clk_1.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_up_change_start_counter_without_load_while_running_clk_1
+R8
+IDWbWhPBY[05Q9o80G`f_d3
+R4
+R5
+w1729266311
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_change_start_counter_without_load_while_running_clk_1.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_change_start_counter_without_load_while_running_clk_1.v
+L0 3
+R6
+r1
+31
+R7
+!s100 FnX@UIIZkn91_83MFO7DN2
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_change_start_counter_without_load_while_running_clk_1.v|
+!s108 1729270292.554000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_change_start_counter_without_load_while_running_clk_1.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_up_no_set_enable_clk_0
+R10
+IJdOTa^mjP98E0FX9_N<g^2
+R4
+R5
+w1728404995
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_no_set_enable_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_no_set_enable_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 bjcl9ISPB?a_NZSb^mSZg3
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_no_set_enable_clk_0.v|
+!s108 1728646723.157000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_no_set_enable_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_up_set_enable_before_set_load_updt_not_simultaneously_clk_0
+ID0`UKQ4hbzEOzR;aN0^A:3
+R4
+R5
+w1728647655
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_not_simultaneously_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_not_simultaneously_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s110 1728647665
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_not_simultaneously_clk_0.v|
+!s100 4m2lkAFUnMA7OlkVnB1@d0
+!s108 1728647665.863000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_not_simultaneously_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_0
+R10
+I`DK[M3HcT2eK9Tzb4L2Tk0
+R4
+R5
+w1728578390
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 @SGl`WHf2VezTiMC927YO2
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_0.v|
+!s108 1728646723.291000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_1
+R10
+IP7Qi2J0Qo<OWU;86VzYYh2
+R4
+R5
+w1728617114
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_1.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_1.v
+L0 3
+R6
+r1
+31
+R7
+!s100 QWz6BaX:j3I?f]?kPfcT30
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_1.v|
+!s108 1728646723.365000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_set_enable_before_set_load_updt_simultaneously_clk_1.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_cnt_up_turn_off_enable_before_get_first_clk_ena_clk_0
+R10
+IYj;DXM2I1=MNN`d<o[QO]0
+R4
+R5
+w1728469839
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_turn_off_enable_before_get_first_clk_ena_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_turn_off_enable_before_get_first_clk_ena_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 N>FGk:SNIPkUZ7U<mhLN73
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_turn_off_enable_before_get_first_clk_ena_clk_0.v|
+!s108 1728646723.225000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_turn_off_enable_before_get_first_clk_ena_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_convert_cnt_down_to_cnt_up_before_get_first_clk_1
+R8
+I?>=MaN3<g3GGhHD6e`lNf0
+R4
+R5
+w1729265084
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_down_to_cnt_up_before_get_first_clk_1.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_down_to_cnt_up_before_get_first_clk_1.v
+L0 3
+R6
+r1
+31
+R7
+!s100 mJ22@hoaY]138`z<gHe2U0
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_down_to_cnt_up_before_get_first_clk_1.v|
+!s108 1729270292.490000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_down_to_cnt_up_before_get_first_clk_1.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_convert_cnt_up_to_cnt_down_after_get_first_clk_0
+R8
+INUlUdZmGE`mcWeZ6Z>_`g1
+R4
+R5
+w1728665803
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_after_get_first_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_after_get_first_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 IR[ST=@YV]gF9iE=TY^1F1
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_after_get_first_clk_0.v|
+!s108 1729270292.367000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_after_get_first_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_convert_cnt_up_to_cnt_down_before_get_clk_0
+Ikb_=@R<AR=ESZ@m053ZO43
+R4
+R5
+w1728644802
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_before_get_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_before_get_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s110 1728666044
+!s100 QGQBkIHlW_<B4j7I7El4C3
+!s108 1728666044.582000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_before_get_clk_0.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_before_get_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_convert_cnt_up_to_cnt_down_before_get_first_clk_0
+R8
+I?W9mG<Pn[n<@gCHeYb=d@0
+R4
+R5
+w1728666850
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_before_get_first_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_before_get_first_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 72@i6]ZoGH=lbeVB6cHIB1
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_before_get_first_clk_0.v|
+!s108 1729270292.430000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_convert_cnt_up_to_cnt_down_before_get_first_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_down_from_0_clk_0
+R10
+IOkK>GF]8FoEd7aj>=E1hH1
+R4
+R5
+w1728645872
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_0_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_0_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_0_clk_0.v|
+!s100 7dOE6_AT2TA3cl>giZ;KW3
+!s108 1728646723.646000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_down_from_0_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_set_overflow_before_underflow_clk_1
+R8
+I;a8R=Te?VHUY7kPNcl@Z33
+R4
+R5
+w1729270287
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_set_overflow_before_underflow_clk_1.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_set_overflow_before_underflow_clk_1.v
+L0 3
+R6
+r1
+31
+R7
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_set_overflow_before_underflow_clk_1.v|
+!i10b 1
+!s100 n;jOSHR:@chP5TmiMHR<Q0
+!s85 0
+!s108 1729270292.681000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_set_overflow_before_underflow_clk_1.v|
+!i111 0
+vtb_counter_up_from_0_clk_0
+I]0C9jVmUg5HZiW[R0UCAU0
+R4
+R5
+w1728402862
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_0_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_0_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+R10
+!s100 BCDkdL7@`BXQ;05CXHJjm1
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_0_clk_0.v|
+!s108 1728646723.011000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_0_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_up_from_255_clk_0
+R16
+IN3anGIL:jHdeon_WJ?]aY1
+R4
+R5
+w1728310190
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_255_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_255_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+!s100 G>2U[80HI8:OkUimaT_b[3
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_255_clk_0.v|
+!s108 1728646722.852000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_255_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_up_from_nonzero_clk_0
+IMGgb94F?]I@HY[0gAhfh41
+R4
+R5
+w1727951843
+8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_nonzero_clk_0.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_nonzero_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+R15
+!s100 oJQXXQm[@Oba7aG>eiXN22
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_nonzero_clk_0.v|
+!s108 1728044877.033000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_from_nonzero_clk_0.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_up_no_set_load_0_clk_0
+I<mOddK=W[:S8]0HHngL=E1
+R4
+R5
+w1728404142
+Z17 8D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_no_set_load_clk_0.v
+Z18 FD:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_no_set_load_clk_0.v
+L0 3
+R6
+r1
+31
+R7
+Z19 !s107 D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_no_set_load_clk_0.v|
+Z20 !s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/counter/tb_counter_cnt_up_no_set_load_clk_0.v|
+!s110 1728404153
+!s100 4bVA5S8o8U1d^6gEZdKK10
+!s108 1728404153.285000
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_up_no_set_load_clk_0
+R10
+I9RAVF`n1QYDmc5RNQZS^f3
+R4
+R5
+w1728404256
+R17
+R18
+L0 3
+R6
+r1
+31
+R20
+R7
+R19
+!s100 hDUekXO8icRH2XBnJNIPo0
+!s108 1728646723.079000
+!i10b 1
+!s85 0
+!i111 0
+vtb_counter_while_reset
+R11
+I]zV5lkjRUbZl9zYRo>WEQ1
+R4
+R5
+w1727946421
+8../tb/counter/tb_counter_while_reset.v
+F../tb/counter/tb_counter_while_reset.v
+L0 3
+R6
+r1
+31
+R12
+R13
+R14
+R7
+!s100 >iW>@hQoIC02>`=_:fXh33
+!i10b 1
+!s85 0
+!i111 0
+vtb_example
+IMkWl=_eEmjYg[g[[Ymek^1
+R4
+R5
+w1727884100
+8D:/semiconductor/practice/07_Timer_8bit/tb/apb_controller/tb_example.v
+FD:/semiconductor/practice/07_Timer_8bit/tb/apb_controller/tb_example.v
+L0 3
+R6
+r1
+31
+R7
+!s110 1728044876
+!s100 UL@ofnQnen9IU_ZME6BSQ3
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/tb/apb_controller/tb_example.v|
+!s108 1728044876.376000
+!s107 D:/semiconductor/practice/07_Timer_8bit/tb/apb_controller/tb_example.v|
+!i10b 1
+!s85 0
+!i111 0
+vtimer_8bit
+R8
+IjQG1hn:M1A;MP;4nk`XGk0
+R4
+R5
+R9
+8D:/semiconductor/practice/07_Timer_8bit/src/timer_8bit.v
+FD:/semiconductor/practice/07_Timer_8bit/src/timer_8bit.v
+L0 3
+R6
+r1
+31
+R7
+!s100 LIoOnTVg[Ce=;KeoAGgBd2
+!s90 -reportprogress|300|-work|work|-vopt|D:/semiconductor/practice/07_Timer_8bit/src/timer_8bit.v|
+!s108 1729270292.297000
+!s107 D:/semiconductor/practice/07_Timer_8bit/src/timer_8bit.v|
+!i10b 1
+!s85 0
+!i111 0
